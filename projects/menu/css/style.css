@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+* {
+  box-sizing: border-box;
+  
+}
+.MENUS, .suitablefor, #filters{
+  text-align: left;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0px
+}
+
+h1 {
+  display: none;
+  text-align: center;
+  text-decoration: underline overline;
+  text-underline-offset: 6px;
+  font-family: 'League Gothic', sans-serif;
+  
+}
+
+
+.menu-titles{
+  border: 3px solid #ffb03b;
+  
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 30%;
+  padding-left: 5px;
+  background: rgb(255,176,59);
+  
+  border: 3px solid #ffb03b;
+  overflow:scroll;
+}
+
+.sticky::-webkit-scrollbar{
+  display: none;
+}
+
+h3 {
+  font-size: 25px;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: 'League Gothic', sans-serif;
+  letter-spacing: 5px
+}
+
+h5{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'League Gothic', sans-serif;
+  letter-spacing: 1px;
+  margin: 0 3 3 3;
+}
+p {
+  font-size: 18px;
+  font-weight:normal;
+  padding: 0px;
+  margin: 0 3 20 3;
+  font-family: 'League Gothic', sans-serif;
+  font-weight: 1;
+}
+
+
+.flex-container {
+    position: fixed;
+    top: 0;
+    left: 30%;
+    width: 70%;
+    border: 3px solid #ffb03b;
+    height: 100%;
+    overflow:scroll;
+  }
+  .flex-container::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .flex-item{
+    display: none;
+    width: auto;
+    text-align: center;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    border: 3px solid #ffb03b;
+    
+    
+  }
+  
